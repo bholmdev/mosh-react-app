@@ -1,10 +1,4 @@
-const person = {
-    talk() {
-        var self = this;
-        setTimeout(() => {
-            console.log("this", this);
-        }, 1000)
-    }
-};
+const colors = ["red", "green", "blue"];
+const items = colors.map(color => `<li>${color}<li>`);
 
-person.talk();
+console.log(items);
