@@ -1,2 +1,11 @@
-const x = 1;
-x = 2;
+const person = {
+    name: "Mosh",
+    walk: function() {},
+    talk() {}
+};
+
+person.talk();
+person.name="";
+
+const targetMember = "name";
+person[targetMember.value] = "John";
