@@ -1,11 +1,8 @@
-const address = {
-    street: "",
-    city: "",
-    country: ""
-};
+const first = { name: "Mosh"};
+const second = { job: "Instructor" }
 
-// const street = address.street;
-// const city = address.city;
-// const country = address.country;
+const combine = { ...first, ...second, location: "Austrailia" }
+console.log(combine);
 
-const { street: st, city, country } = address;
+const clone = { ...first }
+console.log(clone);
