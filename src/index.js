@@ -1,5 +1,5 @@
 import { Person } from "./person";
-import { Teacher } from "./teacher";
+import Teacher, { promote } from "./teacher";
 
 const person = new Person("Mosh");
 const teacher = new Teacher("Mosh", "MSc");

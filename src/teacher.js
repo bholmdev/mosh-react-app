@@ -1,6 +1,8 @@
 import { Person } from "./person";
 
-export class Teacher extends Person {
+export const promote = () => {}
+
+class Teacher extends Person {
     constructor(name, degree) {
         super(name);
         this.degree = degree;
@@ -10,3 +12,5 @@ export class Teacher extends Person {
         console.log("teach");
     }
 };
+
+export default Teacher;
